@@ -1,5 +1,6 @@
 body{
-    background-color: aquamarine;
+    background: rgb(0,197,200);
+background: linear-gradient(0deg, rgba(0,197,200,1) 0%, rgba(45,253,98,1) 100%);
 }
 h1{
     text-align: center;
@@ -10,12 +11,17 @@ h1{
 .Box{
     float: left;
     width: 400px;
-    height: 580px;
+    height: 630px;
     border: 5px solid black;
     margin: 6px;
     padding: 5px;
+    background-color: beige;
+    opacity: 50%;
 
 
+}
+.Box:hover{
+    opacity: 100%;
 }
 
 .Img{
@@ -27,6 +33,10 @@ h1{
     margin-right: auto;
     width: 50%;
 
+}
+.Img:hover{
+    width: 65%;
+    height: 150px;
 }
 
 h2{
@@ -44,11 +54,101 @@ p{
 }
 
 h4{
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 78, 78);
     font-size: 20px;
+    font-size: 25px;
 }
 h4:hover{
     color: blue;
-    font-size: 25px;
+    font-size: 35px;
     background-color: antiquewhite;
+}
+
+
+
+
+
+.form{
+    padding: 10px;
+    float: left;
+    width: 250px;
+    font-size: 30px;
+    margin: 20px;
+    border: 3px solid black;
+    display: block;
+
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+input:focus{
+    background-color: blanchedalmond;
+}
+input:hover{
+    background-color: blanchedalmond;
+}
+
+#login{
+    background-color: rgb(54, 209, 78);
+    font-size: 25px;
+    margin: 10px;
+}
+#login:hover{
+    width: 110px;
+    height: 40px;
+}
+#clear{
+    font-size: 25px;
+    margin: 10px;
+}
+#clear:hover{
+    width: 110px;
+    height: 40px;
+    color: aliceblue;
+    background-color: black;
+}
+
+.query{
+    float: left;
+    width: 260px;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.query #text{
+    width: 250px;
+    height: 100px;
+
+}
+.query select{
+    width: 250px;
+    font-size: 20px;
+    padding: 3px;
+    margin: 3px;
+}
+.query input{
+    width: 250px;
+}
+
+#submit{
+    width: 150px;
+    background-color: rgb(0, 26, 255);
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#submit:hover{
+    width: 200px;
+    height: 35px;
+    background-color: rgb(143, 210, 255);
+    color: black;
 }
