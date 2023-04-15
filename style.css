@@ -1,14 +1,20 @@
 body{
     background-color: aquamarine;
 }
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 .Box{
     float: left;
     width: 400px;
-    height: 500px;
-    border: 1px dotted black;
+    height: 580px;
+    border: 5px solid black;
     margin: 6px;
     padding: 5px;
+
 
 }
 
@@ -20,6 +26,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
 }
 
 h2{
@@ -28,8 +35,20 @@ h2{
     text-align: center;
     font-family: Roboto Slab;
     
+    
 }
 
 p{
     font-size: 20px;
+    font-family: cursive;
+}
+
+h4{
+    background-color: azure;
+    font-size: 20px;
+}
+h4:hover{
+    color: blue;
+    font-size: 25px;
+    background-color: antiquewhite;
 }
