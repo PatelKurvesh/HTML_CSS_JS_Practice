@@ -170,6 +170,7 @@ input:hover{
 }
 
 hr{
-    border: 5px dotted whitesmoke;
+    border: 5px double whitesmoke;
+    height:5px;
 }
 
